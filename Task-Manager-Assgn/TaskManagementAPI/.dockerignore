@@ -1,0 +1,26 @@
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# VS/IDE
+.vs/
+.idea/
+*.vscode/
+
+# Git
+.git/
+.gitignore
+
+# Docker
+Dockerfile*
+docker-compose*
+
+# Logs
+*.log
+
+# Build outputs
+**/bin/
+**/obj/
