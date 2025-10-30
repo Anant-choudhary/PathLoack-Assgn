@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins(clientAppUrl)
+        policy.WithOrigins(clientAppUrl, "https://path-loack-assgn-6rjt.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
