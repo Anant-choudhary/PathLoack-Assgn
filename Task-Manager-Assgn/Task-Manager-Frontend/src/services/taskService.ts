@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { TaskItem } from '../types/task';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000/api/tasks';
+const API_BASE_URL = 'https://pathloack-assgn.onrender.com/api/tasks';
 
 // Rest of the code...
 
